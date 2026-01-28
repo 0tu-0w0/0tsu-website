@@ -2,19 +2,17 @@
 "use client"; // This directive makes it a Client Component
 
 import Image from "next/image";
+import { FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
+import { SiPixiv } from "react-icons/si";
 
-const images = [
-  "/gallery/art1.jpg",
-  "/gallery/art2.jpg",
-  "/gallery/art3.jpg",
-];
-
-export default function Gallery() {
+export default function Home() {
   return (
-    <div className="grid grid-cols-3 gap-4">
-      {images.map((src) => (
-        <Image key={src} src={src} width={400} height={400} alt="Artwork"/>
-      ))}
-    </div>
+    <section className="space-y-6">
+      <h2 className="text-3xl font-semibold">About Me</h2>
+      <p className="leading-relaxed">
+        〇〇大学で△△を学んでいます。  
+        主に◯◯の制作・研究を行っています。
+      </p>
+    </section>
   );
 }
