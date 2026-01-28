@@ -1,5 +1,5 @@
 // app/gallery/page.tsx
-import Gallery from "../components/Gallery";
+import Gallery from "@/app/components/Gallery";
 
 export default function GalleryPage() {
   return (
