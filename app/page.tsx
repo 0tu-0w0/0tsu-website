@@ -19,6 +19,7 @@ const socialLinks: SocialLink[] = [
   { name: "GitHub", url: "https://github.com/0tu-0w0", icon: FaGithub, color: "#333" },
   { name: "Pixiv", url: "https://www.pixiv.net/users/110858681", icon: SiPixiv, color: "#0096FA" },
 ];
+
 export default function Home() {
   return (
     <section className="space-y-6">
