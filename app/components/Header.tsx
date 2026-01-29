@@ -19,7 +19,7 @@ export default function Header() {
         </Link>
 
         {/* テキストナビゲーションメニュー */}
-        <nav className="text-sm tracking-widest">
+        <nav className="absolute bottom-3 left-1/2 -translate-x-1/2 text-sm tracking-widest">
           <Link href="/" className="hover:text-gray-500 transition">
             home
           </Link>
