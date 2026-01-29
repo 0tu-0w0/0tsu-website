@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 bg-white border-b">
+    <header className="sticky top-0 z-50 bg-white border-b relative">
       <div className="max-w-5xl mx-auto px-6 py-40 h-16 flex flex-col items-center justify-center gap-3">
 
         {/* 画像ロゴ(リンク付き) */}
