@@ -30,12 +30,15 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* Header */}
         <Header />
 
+        {/* Main Content */}
         <main className="max-w-5xl mx-auto px-6 py-12 flex flex-col">
           {children}
         </main>
 
+        {/* Footer */}
         <Footer />
 
       </body>
