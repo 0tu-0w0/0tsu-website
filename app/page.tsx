@@ -28,6 +28,7 @@ export default function Home() {
         〇〇大学で△△を学んでいます。  
         主に◯◯の制作・研究を行っています。
       </p>
+      
     </section>
   );
 }
