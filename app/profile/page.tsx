@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function ProfilePage() {
   return (
     <section className="max-w-4xl mx-auto px-6 py-20">
-      <div className="flex flex-col md:flex-row gap-10 items-center md:items-start justify-between">
+      <div className="flex flex-col sm:flex-row gap-10 items-center sm:items-start justify-between">
 
         {/* Left Image */}
         <div className="flex-shrink-0">
@@ -25,6 +25,8 @@ export default function ProfilePage() {
           <h1 className="text-2xl tracking-wide font-semibold mb-4">
             おつ <span className="text-base ml-2">0tsu</span>
           </h1>
+
+
 
           <p>
             2004年9月14日生まれ、新潟県出身
